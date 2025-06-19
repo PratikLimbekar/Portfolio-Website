@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    /* min-width: 90%; */
+    min-height: 100%;
+}
+
+.main-div {
+    color: white;
+    /* min-width: 90%; */
+    height: auto;
+    padding: 20px;
+    background-color: black;
+    /* min-height: 100%; */
+    /* background-color: black; */
+}
+
+.resume-link {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Me {
+    justify-content: center;
+    text-align: center;
+    
+}
