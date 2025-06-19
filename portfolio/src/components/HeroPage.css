@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Forum&display=swap');
+
+body {
+    min-width: 90%;
+    min-height: 100%;
+}
+.main {
+    top: 0;
+    /* height: auto; */
+    /* display: grid; */
+    padding-top: 1250px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+    min-width: 90%;
+    min-height: 100%;
+}
+
+.heading-grid {
+    padding: 20px;
+    padding-right: 0px;
+    padding-top: 50px;
+    flex: 1;
+    min-width: 90%;
+    /* background-color: blue; */
+}
+
+.heroicon {
+    max-width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) { 
+    .heroicon {
+        max-width: 200px; 
+    }
+    h1 {
+        font-size: 2.5em; 
+    }
+    h2 {
+        font-size: 1.2em; 
+    }
+}
+
+
+h2 {
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Forum', serif;
+    color: white; 
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    padding-top: 0;
+    color: white;
+    font-family: 'Atomic Age', cursive;
+    font-size: 3.5em; 
+    line-height: 1.2; 
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.rotate-image {
+    animation: rotation 45s linear infinite;
+}

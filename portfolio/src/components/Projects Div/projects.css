@@ -1,0 +1,41 @@
+html, body {
+    min-width: 90%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Main {
+    height: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: black;
+}
+
+.heading {
+    padding: 20px;
+    flex: 1;
+    width: 100vw;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+}
+
+.chromagrid {
+    width: 90%;
+
+}

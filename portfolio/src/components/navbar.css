@@ -1,0 +1,52 @@
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.5s;
+}
+
+li {
+  display: float;
+  /* float gets block elements to float next to each other */
+}
+
+a {
+    display: block;
+    /* allows us to specify padding */
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    /* below three are important properties */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#name {
+    color: white;
+    padding: 14px 20px;
+    float: inline-start;
+}
+
+.links {
+    float: inline-end;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
